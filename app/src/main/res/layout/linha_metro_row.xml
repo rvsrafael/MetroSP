@@ -2,8 +2,8 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_margin="@dimen/activity_horizontal_margin"
     android:layout_width="match_parent"
+    android:layout_marginBottom="8dp"
     android:layout_height="wrap_content">
 
     <LinearLayout
@@ -13,6 +13,7 @@
 
         <ImageView
             android:id="@+id/ivLinha"
+            android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -25,6 +26,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
                 android:id="@+id/tvNome"/>
 
             <TextView
